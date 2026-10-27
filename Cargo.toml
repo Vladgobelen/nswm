@@ -1,0 +1,8 @@
+[package]
+name = "nswm"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+nix = { version = "0.31.3", features = ["poll"] }
+x11rb = { version = "0.14.0", features = ["allow-unsafe-code"] }
